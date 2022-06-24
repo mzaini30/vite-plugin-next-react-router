@@ -7,6 +7,7 @@ export const generateRoutesCode = ({
   pages,
 }: any) => `
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 ${layoutImport}
 ${staticPageMetaImports}
 ${pageImports}
